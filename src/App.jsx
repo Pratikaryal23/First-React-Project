@@ -1,18 +1,27 @@
-import { useState } from 'react'
-import Toolbar from './Component/Navigation/Toolbar'
+// import { useState } from 'react'
+// import Toolbar from './Component/Navigation/Toolbar'
 import{BrowserRouter as Router,Routes,Route}from 'react-router-dom';
-import Layout from './HOC/Layout';
+import Sigin from './Page/Sigin';
+import Home from './Page/Home';
+
+
+import Layout from "./HOC/Layout"
+
 
 function App() {
  
 
   return (
     <>
-<Router>
-  <Routes>
-    <Route path="layout" element={<Layout/>}/>
-  </Routes>
-</Router>
+    {/* <Layout/> */}
+    <Router>
+    <Layout/>
+      <Routes>
+        <Route path="sigin" element={<Sigin/>}/>
+        <Route path="/home" element={<Home/>}/>
+
+      </Routes>
+    </Router>
 
     </>
   )}

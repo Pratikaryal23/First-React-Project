@@ -1,9 +1,18 @@
-import Subheader from "./Subheader";
 import React from 'react'
+import Subheader from './Subheader';
+import Header from './Header';
 
 const Toolbar = () => {
   return (
-    <div>Toolbar</div>
+    <>  
+    
+    
+     <Subheader/>
+     <Header/>
+    
+    
+    </>
+
   )
 }
 

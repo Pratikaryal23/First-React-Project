@@ -1,10 +1,12 @@
 import React from 'react'
-import Toolbar from '../Component/Navigation/Toolbar'
+import Toolbar from '../Component/Navigation/Toolbar';
+
 
 const Layout = () => {
   return (
-    <div>Layout</div>
+    <Toolbar />
+    
   )
 }
 
-export default Layout
+export default Layout;
