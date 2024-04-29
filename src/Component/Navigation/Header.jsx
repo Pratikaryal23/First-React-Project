@@ -3,18 +3,19 @@ import React from 'react';
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineManageAccounts } from "react-icons/md";
 import {useNavigate}from "react-router-dom";
+import image from "../../assets/Layer_1.jpg";
 
 const Header = () => {
    const Navigation=useNavigate()
   return (
     <>
-<nav className='w-full h-16 py-4 flex justify-between px-6   border-b-2 border-b-slate-400'>
-    <div className=''>
-        <h2>
-        <span>P</span>RATEEK
-        <span>A</span>RYAL
-        </h2>
-    </div>
+<nav className=' h-16 py-4  px-6   border-b-2 border-b-slate-400'>
+  {/* <div className='w-10/12 mx-auto'> */}
+    <div className='w-10/12 mx-auto flex justify-between'>
+     <div>
+      <img  className='w-28 h-6' src={image} alt=""/>
+     </div>
+    
     <div className='flex  gap-10 text-md  font-semibold'>
         <ul className='hover:text-blue-300'>
             <li >
@@ -54,7 +55,9 @@ const Header = () => {
    <MdOutlineManageAccounts className='text-3xl' onClick={()=>{
     Navigation("Sigin")
    }}/>
-    </div>
+   </div>
+   </div>
+    {/* </div> */}
 </nav>
     </>
   )

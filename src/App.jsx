@@ -18,7 +18,7 @@ function App() {
     <Layout/>
       <Routes>
         <Route path="sigin" element={<Sigin/>}/>
-        <Route path="/home" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
 
       </Routes>
     </Router>
@@ -26,4 +26,4 @@ function App() {
     </>
   )}
 
-export default App
+export default App;
