@@ -6,6 +6,7 @@ import Home from './Page/Home';
 
 
 import Layout from "./HOC/Layout"
+import About from './Page/About';
 
 
 function App() {
@@ -17,8 +18,9 @@ function App() {
     <Router>
     <Layout/>
       <Routes>
-        <Route path="sigin" element={<Sigin/>}/>
+        <Route path="/sigin" element={<Sigin/>}/>
         <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
 
       </Routes>
     </Router>

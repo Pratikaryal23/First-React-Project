@@ -3,7 +3,7 @@ import React from 'react';
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineManageAccounts } from "react-icons/md";
 import {useNavigate}from "react-router-dom";
-import image from "../../assets/Layer_1.jpg";
+import image from "../../assets/Layer_1.png";
 
 const Header = () => {
    const Navigation=useNavigate()
@@ -19,13 +19,13 @@ const Header = () => {
     <div className='flex  gap-10 text-md  font-semibold'>
         <ul className='hover:text-blue-300'>
             <li >
-              <a href="home">Home</a>
+              <a href="/">Home</a>
             </li>
         </ul>
  
         <ul className='hover:text-blue-300'>
             <li>
-              <a href="#">About US</a>
+              <a href="about">About US</a>
             </li>
         </ul>
         <ul className='hover:text-blue-300'>
@@ -53,7 +53,7 @@ const Header = () => {
     <div className='flex gap-10'>
     <CiSearch className='text-3xl'/>
    <MdOutlineManageAccounts className='text-3xl' onClick={()=>{
-    Navigation("Sigin")
+    Navigation("/Sigin")
    }}/>
    </div>
    </div>

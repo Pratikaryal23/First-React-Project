@@ -9,7 +9,7 @@ import { IoMdTime } from "react-icons/io";
 
 const Subheader = () => {
   return (
-    <div className='bg-blue-500  w-full  h-12'>
+    <div className='bg-[#9580F1] w-full  h-12'>
 <div  className='flex justify-between'>
 <div className=' flex gap-8 text-white p-2'>
 <FaFacebook className='h-8 w-6'/>
