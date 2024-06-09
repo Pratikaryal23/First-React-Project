@@ -9,9 +9,9 @@ const Header = () => {
    const Navigation=useNavigate()
   return (
     <>
-<nav className=' h-16 py-4  px-6   border-b-2 border-b-slate-400'>
+<nav className=' h-16 py-4 px-6 shadow-2xl'>
   {/* <div className='w-10/12 mx-auto'> */}
-    <div className='w-10/12 mx-auto flex justify-between'>
+    <div className='w-10/12 mx-auto flex justify-between shadow-2xl'>
      <div>
       <img  className='w-28 h-6' src={image} alt=""/>
      </div>
@@ -30,7 +30,7 @@ const Header = () => {
         </ul>
         <ul className='hover:text-blue-300'>
             <li>
-              <a href="#">Our Services</a>
+              <a href="service">Our Services</a>
             </li>
         </ul>
         <ul className='hover:text-blue-300'>
@@ -46,7 +46,7 @@ const Header = () => {
         </ul>
         <ul className='hover:text-blue-300'>
             <li>
-              <a href="#">Contact us</a>
+              <a href="contact">Contact us</a>
             </li>
         </ul>
     </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Subheader from './Subheader';
 import Header from './Header';
-import Footer from './Footer';
+// import Footer from './Footer';
 
 const Toolbar = () => {
   return (
@@ -10,7 +10,7 @@ const Toolbar = () => {
      <Subheader/>
      <Header/>
     
-     <Footer/>
+     {/* <Footer/> */}
     
     
     

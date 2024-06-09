@@ -10,20 +10,20 @@ import { IoMdTime } from "react-icons/io";
 const Subheader = () => {
   return (
     <div className='bg-[#9580F1] w-full  h-12'>
-<div  className='flex justify-between'>
-<div className=' flex gap-8 text-white p-2'>
-<FaFacebook className='h-8 w-6'/>
-<FaInstagram className='h-8 w-6'/>
-<FaGithub className='h-8 w-6'/>
+<div  className='flex justify-between w-10/12 mx-auto'>
+<div className=' flex gap-8 text-white text-sm h-5 p-2'>
+<FaFacebook className=''/>
+<FaInstagram className=''/>
+<FaGithub className=''/>
 </div>
 <div className='p-2 text-white  flex gap-5'>
-  <div className='border-r-2 px-2 border-white text-xl'>12343546</div>
-  <div className='border-r-2 px-2 border-white text-xl'>00909009</div>
-  <div className='flex gap-2 text-md border-r-2 px-2 border-white'>
+  <div className='border-r-2 px-2 border-white text-sm'>12343546</div>
+  <div className='border-r-2 px-2 border-white text-sm'>00909009</div>
+  <div className='flex gap-2 text-sm border-r-2 px-2 border-white'>
 <CiMail className='h-8 w-6'/>
 <p>aryalpratik057@gmail.com</p>
   </div>
-  <div className='flex gap-2 text-md  px-2 '>
+  <div className='flex gap-2 text-sm  px-2 '>
     <IoMdTime className='h-8 w-6'/>
     <p>Sunday-Friday,9Am-5Pm</p>
   </div>

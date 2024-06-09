@@ -37,7 +37,7 @@ const Footer = () => {
      <p>Webians</p>
      <p>Feedback</p>
     </div>
-    <div>
+    <div className='gap-4 grid'>
     <h3 className=' text-xl'>Links</h3>
     <p>Courses</p>
     <p>Become Teacher</p>
@@ -60,5 +60,5 @@ Privacy Policies</p>
   )
 }
 
-export default Footer
+export default Footer;
 
