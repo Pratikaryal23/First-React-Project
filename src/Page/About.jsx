@@ -6,7 +6,6 @@ import Herosection from "../Component/UI/Herosection";
 import Services from "../Component/UI/Services";
 import Carousel from "../Component/UI/Carousel";
 
-
 const About = () => {
   return (
     <>
@@ -15,10 +14,10 @@ const About = () => {
           <Herosection title={"about"} links={"about"} />
           <div className="w-10/12 mx-auto grid grid-cols-2 py-6 gap-6">
             <div className="flex flex-col py-9 gap-10">
-              <p className="text-5xl font-bold">
+              <p className="text-4xl font-bold">
                 We Provide Top Quality Cleaning
               </p>
-              <p className="text-2xl">
+              <p className="text-xl">
                 Training programs can bring you a super exciting experience of
                 learning through online! You never face any negative experience
                 while enjoying your classes Awesome site. on the top advertising
@@ -31,10 +30,9 @@ const About = () => {
             <div>
               <img src={image} alt="" />
             </div>
-          
           </div>
         </div>
-     <Services />
+        <Services />
         <div className="w-10/12 mx-auto flex justify-between">
           <div className="grid">
             <p className="text-4xl font-semibold">Testonomial</p>
@@ -51,9 +49,8 @@ const About = () => {
             </button>
           </div>
         </div>
-        <Carousel/>
+        <Carousel />
       </section>
-      
     </>
   );
 };

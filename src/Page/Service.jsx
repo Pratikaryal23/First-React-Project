@@ -7,7 +7,7 @@ import Accordions from "../Component/UI/Accordion";
 const Service = () => {
   return (
     <>
-      <Herosection title={Service} links={Service} />
+      <Herosection title={Services} links={Services} />
     
       <Services />
       <div className="mx-auto w-10/12 justify-center flex my-5">

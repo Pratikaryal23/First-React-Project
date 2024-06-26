@@ -8,6 +8,7 @@ import { MdPassword } from "react-icons/md";
 import { Formik, ErrorMessage, Form, Field } from "formik";
 import * as Yup from "yup";
 import imgs from "../assets/image 81.png";
+import Blog from "./Blog";
 
 const schema = Yup.object().shape({
   name: Yup.string()
@@ -39,7 +40,7 @@ const Home = () => {
               torquent
             </p>
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-4 px-5">
             <buttton className="border-2 h-fit py-3 px-6 w-fit  bg-blue-600 rounded-xl text-white">
               About us
             </buttton>
@@ -98,7 +99,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="w-10/12 mx-auto bg-white shadow-lg mt-4 py-8 flex gap-20 mb-6">
+      <div className="w-10/12 mx-auto bg-white shadow-lg mt-8 py-8 flex gap-32 mb-6">
         <p className="grid border-r-2 px-6 py-8 text-2xl  border-gray-500 text-[#9580F1]">
           <span className="text-black text-4xl font-semibold">500+</span>{" "}
           project Done
@@ -175,6 +176,7 @@ const Home = () => {
             </div>
           </Form>
         </Formik>
+        {/* <Blog/> */}
       </div>
     </>
   );

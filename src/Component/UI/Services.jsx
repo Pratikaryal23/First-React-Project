@@ -36,7 +36,7 @@ function Services() {
           </div>
         </div>
 
-        <div className="    flex w-10/12 mx-auto  ">
+        <div className="    flex w-10/12 mx-auto mb-5 ">
           {data.map((val, i) => {
             return (
               <div className="border-2 my-3 border-gray-200 w-80 gap-4 grid p-3 mx-auto shadow-md rounded-3xl hover:bg-[#9580F1] hover:text-white hover:scale-110">

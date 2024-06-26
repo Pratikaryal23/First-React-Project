@@ -3,6 +3,7 @@ import imgs from "../assets/login.png";
 // import { Field } from "formik";
 import { Formik, ErrorMessage, Form, Field } from "formik";
 import * as Yup from "yup";
+// import { useClerk } from "@clerk/clerk-react";
 const schema = Yup.object().shape();
 
 const Login = () => {
@@ -60,16 +61,22 @@ const Login = () => {
                   </div>
 
                   <div className="text-blue-500">Forget Password?</div>
-                  </div>
+                </div>
 
-                  <div className="py-3">
-                    <buttton className="border-2 h-fit px-56 w-88 py-3 bg-blue-600 rounded-xl text-white">
-                      Login
-                    </buttton>
-                  </div>
-                  <div className="py-3">Not have an Account? <span className="text-blue-600 cursor-pointer">Create Account</span></div>
+                <div className="py-3">
+                  <buttton className="border-2 h-fit px-56 w-88 py-3 bg-blue-600 rounded-xl text-white">
+                    Login
+                  </buttton>
+                </div>
+                <div className="py-3">
+                  Not have an Account?{" "}
+                  <span className="text-blue-600 cursor-pointer">
+                    Create Account
+                  </span>
+                </div>
                 
               </div>
+              
               <div>
                 <img className="w-9/12" src={imgs} alt="" />
               </div>

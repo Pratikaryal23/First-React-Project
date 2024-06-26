@@ -3,10 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.slick-prev,.slick-next{
+.slick-arrow .slick-prev{
    /* background-color:black; */
-   color: aqua;
-   background-color: gray;
+   color: red !important;
+   background-color: gray !important;
    
 }
 #panel-header{
