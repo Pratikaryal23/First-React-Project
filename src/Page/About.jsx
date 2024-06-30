@@ -33,7 +33,7 @@ const About = () => {
           </div>
         </div>
         <Services />
-        <div className="w-10/12 mx-auto flex justify-between">
+        <div className="w-10/12 mx-auto flex justify-between py-8">
           <div className="grid">
             <p className="text-4xl font-semibold">Testonomial</p>
             <p className="font-[Lato] text-2xl text-gray-400">

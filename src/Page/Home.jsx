@@ -134,7 +134,7 @@ const Home = () => {
             <div className="w-full h-full">
               <img className="w-full h-full object-cover" src={imgs} alt="" />
             </div>
-            <div className="grid shadow-lg px-4">
+            <div className="grid shadow-lg px-4 ">
               <div className="flex flex-col justify-center items-center">
                 <h1 className="text-4xl font-bold">Having Questions?</h1>
                 <p className="text-2xl font-semibold">

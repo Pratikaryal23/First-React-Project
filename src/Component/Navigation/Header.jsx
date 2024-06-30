@@ -46,7 +46,7 @@ const Header = () => {
         </ul> */}
         <ul className='hover:text-blue-300'>
             <li>
-              <a href="contact">Contact us</a>
+              <a href="/contact">Contact us</a>
             </li>
         </ul>
     </div>
